@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="desktop-nav">
+      <div class="logo">Aniket Rawat</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#About-page">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Aniket Rawat</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="menu-links">
+          <li><a href="#About-page" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()"> Project</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <!-- Profile Page -->
+    <section id="profile">
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="./Asset/profile-pic.png" alt="This is a profile picture" />
+        </div>
+        <div class="section__text">
+          <div class="intro">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Aniket Rawat</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+          </div>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('./Asset/Resume.pdf')"
+            >
+              Download CV
+            </button>
+            <button
+              class="btn btn-color-1"
+              onclick="location.href='./#contact'"
+            >
+              Contact Info
+            </button>
+          </div>
+          <div id="socials-container">
+            <img
+              src="./Asset/linkedin.png"
+              alt="My LinkedIn Profile"
+              class="icon"
+              onclick="location.href='https://www.linkedin.com/in/aniket-rawat-a264b3227/'"
+            />
+            <img
+              src="./Asset/github.png"
+              alt="My github Profile Profile"
+              class="icon"
+              onclick="location.href='https://github.com/Aniket2562003/'"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Page  -->
+    <section id="About-page">
+      <p class="p1">Get To Know More</p>
+      <h1>About Me</h1>
+      <div class="About-Container">
+        <div class="About-pic-container">
+          <img src="./Asset/about-pic.png" alt="This is an Image" />
+        </div>
+        <div class="About-Container-intro">
+          <div class="About-Container-intro-1">
+            <div class="E-C Experience-container">
+              <img src="./Asset/experience.png" alt="Logo for experience" />
+              <!-- <p>2+ years</p> -->
+              <p>Frontend-Development</p>
+            </div>
+            <div class="E-C Education-Qualification-Container">
+              <img src="./Asset/education.png" alt="Education Logo" />
+              <p>BTech CSE</p>
+              <!-- <p>MTech Masters Degree</p> -->
+            </div>
+          </div>
+          <div class="About-Container-intro-2">
+            <p class="p2">
+              Aspiring computer science undergraduate with a passion for
+              technology and a strong desire to learn and contribute. Eager to
+              leverage my academic foundation in computer science to gain
+              hands-on experience and develop practical skills. Adept at
+              problem-solving, coding, and working collaboratively in team
+              environments. Excited to embark on a journey of growth and
+              exploration in the world of software development."
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- <img onclick="arrow()"
+        class="Arrow-symbol"
+        src="./Asset/arrow.png"
+        alt="This is an arrow symbol."
+      /> -->
+    </section>
+
+    <!-- -Experience Section  -->
+    <section id="experience">
+      <p class="section_text_pq">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="skills-container">
+        <div class="skill-container-1">
+          <h1 class="skill-Domain">WEB-DEV</h1>
+          <div class="skills">
+            <article>
+              <div>
+                <img
+                  class="checkmark-icon"
+                  src="./Asset/checkmark.png"
+                  alt="This is a checkmark image"
+                />
+              </div>
+              <div>
+                <h3>HTML</h3>
+                <p>Beginner</p>
+              </div>
+            </article>
+            <article>
+              <div>
+                <img
+                  class="checkmark-icon"
+                  src="./Asset/checkmark.png"
+                  alt="This is a checkmark image"
+                />
+              </div>
+              <div>
+                <h3>CSS</h3>
+                <p>Beginner</p>
+              </div>
+            </article>
+            <article>
+              <div>
+                <img
+                  class="checkmark-icon"
+                  src="./Asset/checkmark.png"
+                  alt="This is a checkmark image"
+                />
+              </div>
+              <div>
+                <h3>Bootstrap</h3>
+                <p>Beginner</p>
+              </div>
+            </article>
+            <article>
+              <div>
+                <img
+                  class="checkmark-icon"
+                  src="./Asset/checkmark.png"
+                  alt="This is a checkmark image"
+                />
+              </div>
+              <div>
+                <h3>JavaScript</h3>
+                <p>Beginner</p>
+              </div>
+            </article>
+
+            <article>
+              <div class="checkmark-icon">
+                <img
+                  class="checkmark-icon"
+                  src="./Asset/checkmark.png"
+                  alt="This is a checkmark image"
+                />
+              </div>
+              <div>
+                <h3>J-Query</h3>
+                <p>Beginner</p>
+              </div>
+            </article>
+
+            <article>
+              <div class="checkmark-icon">
+                <img
+                  class="checkmark-icon"
+                  src="./Asset/checkmark.png"
+                  alt="This is a checkmark image"
+                />
+              </div>
+              <div>
+                <h3>Express.js</h3>
+                <p>Beginner</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="skill-container-2">
+          <h1 class="skill-Domain">Programming Languages</h1>
+          <div class="skills">
+            <article>
+              <div>
+                <img
+                  class="checkmark-icon"
+                  src="./Asset/checkmark.png"
+                  alt="This is a checkmark image"
+                />
+              </div>
+              <div>
+                <h3>JAVA</h3>
+                <p>Beginner</p>
+              </div>
+            </article>
+            <article>
+              <div>
+                <img
+                  class="checkmark-icon"
+                  src="./Asset/checkmark.png"
+                  alt="This is a checkmark image"
+                />
+              </div>
+              <div>
+                <h3>C</h3>
+                <p>Beginner</p>
+              </div>
+            </article>
+            <!-- <article>
+              <div>
+                <img
+                  class="checkmark-icon"
+                  src="./Asset/checkmark.png"
+                  alt="This is a checkmark image"
+                />
+              </div>
+              <div>
+                <h3>HTML</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <div>
+                <img
+                  class="checkmark-icon"
+                  src="./Asset/checkmark.png"
+                  alt="This is a checkmark image"
+                />
+              </div>
+              <div>
+                <h3>HTML</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <div>
+                <img
+                  class="checkmark-icon"
+                  src="./Asset/checkmark.png"
+                  alt="This is a checkmark image"
+                />
+              </div>
+              <div>
+                <h3>HTML</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <div class="checkmark-icon">
+                <img
+                  class="checkmark-icon"
+                  src="./Asset/checkmark.png"
+                  alt="This is a checkmark image"
+                />
+              </div>
+              <div>
+                <h3>HTML</h3>
+                <p>Experienced</p>
+              </div>
+            </article> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <p class="p1">Browse My Recents</p>
+      <h1 class="title">Projects</h1>
+      <div class="projects-container">
+        <div class="project-div project-One">
+          <div class="Project-img-container">
+            <img class="project-img" src="./Asset/download.png" alt="" />
+          </div>
+          <h2>Simon Game</h2>
+          <div class="projects-container-buttons">
+            <button>Github</button>
+            <button>Live Demo</button>
+          </div>
+        </div>
+
+        <div class="project-div project-Two">
+          <div class="Project-img-container">
+            <img
+              class="project-img"
+              src="./Asset/resize-1697799611769930583gettyimages615668546612x612.jpg"
+              alt=""
+            />
+          </div>
+          <h2>Dice Game</h2>
+          <div class="projects-container-buttons">
+            <button>Github</button>
+            <button>Live Demo</button>
+          </div>
+        </div>
+
+        <div class="project-div project-Three">
+          <div class="Project-img-container">
+            <img
+              class="project-img"
+              src="./Asset/resize-1697799853861558055istockphoto147033398612x612.jpg"
+              alt=""
+            />
+          </div>
+          <h2>Virtual Drum</h2>
+          <div class="projects-container-buttons">
+            <button>Github</button>
+            <button>Live Demo</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact-Section -->
+    <section id="contact">
+      <div class="contact-container">
+        <p>Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info">
+          <div class="contact-info-container">
+            <img src="./Asset/email.png" alt="Email icon" />
+            <p class="email"><a>aniketrawat2450@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img src="./Asset/linkedin.png" alt="Email icon" />
+            <p class="Linkedin-link">
+              <a href="https://www.linkedin.com/in/aniket-rawat-a264b3227/'"
+                >LinkedIn</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer-Page -->
+    <footer>
+      <div class="footer-nav-container">
+        <ul class="footer-nav-links">
+          <li><a>About</a></li>
+          <li><a>Experience</a></li>
+          <li><a>Projects</a></li>
+          <li><a>Contact</a></li>
+        </ul>
+      </div>
+
+      <p>Copyright © 2023 Aniket Rawat. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
