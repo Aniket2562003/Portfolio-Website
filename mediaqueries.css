@@ -1,211 +1,71 @@
 @media only screen and (max-width: 1200px) {
-   #desktop-nav{
-    display: none;
-   }
-   #hamburger-nav{
-    display: flex;
-   
-    
+  .section__text__p1 {
+    font-size: 2rem;
+  }
+  .title {
+    font-size: 2.4rem;
+  }
+  .section__text__p2 {
+    font-size: 2.5rem;
+  }
 }
-footer{
-    margin-left: 1rem;
-    margin-right: 1rem;
+@media only screen and (max-width: 1020px) {
+  .section-container {
+    gap: 2rem;
+  }
+  .section__pic-container {
+    width: 400px;
+    height: 400px;
+    margin-top: 5rem;
+
+    /* background-color: yellow; */
+  }
 }
-#projects{
-    margin-top: 1rem;
-    height: 100rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-.projects-container{
-    
+@media only screen and (max-width: 833px) {
+  nav {
+    /* background-color: red; */
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-}
-
-.skills{
-    justify-content: start;
-}
-.Arrow-symbol{
-       display: none; 
-}
-#experience{
-    height: 60rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-   
-}
-.contact-info{
-    width: 95%;
+  }
+  .nav-links {
+    display: none;
+  }
+  .section-container {
+    height: auto;
+    /* background-color: red; */
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 0rem;
+  }
+  .section__text {
+    /* background-color: violet; */
+    margin-top: 2rem;
+  }
+  .section__pic-container {
+    width: 400px;
+    height: 400px;
+    margin-top: 1rem;
+
+    /* background-color: yellow; */
+  }
 }
-#contact{
-    margin-left: 1rem;
-    margin-right: 1rem;
+@media only screen and (max-width: 478px) {
+  .section__pic-container {
+    width: 250px;
+    height: 250px;
+    margin-top: 1rem;
+
+    /* background-color: yellow; */
+  }
+  .section__text__p1 {
+    font-size: 1.5rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .section__text__p2 {
+    font-size: 2rem;
+  }
 }
-}
-@media only screen and (max-width: 1300px) {
-    .section-container{
-        display: flex;
-        flex-direction: column;
-    }
-    .section__pic-container{
-        width:320px;
-        height: 320px;
-        /* background-color: yellow; */
-     }
-     
-    .section__text{
-        /* background-color: red; */
-        width: 80%;
-        
-    }
-    #profile{
-        /* background-color: skyblue; */
-        margin-left: 1rem;
-        margin-right: 1rem;
-       
-        height: 45rem;
-       
-    }
-    .btn{
-       
-        width: 150px;
-    }
-   
-    #About-page{
-        margin-left: 1rem;
-        margin-right: 1rem;
-      
-        height: 45rem;
-    }
-    .E-C{
-        padding: 1px;
-    }
-    .About-Container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-   .About-pic-container{
-    /* background-color: skyblue; */
-    display: flex;
-    justify-content: center;
-    margin-top: 10rem;
-   }
-   .About-pic-container img{
-    width: 275px;
-    height: 275px;
-    
-   }
- }
- @media only screen and (max-width: 561px) {
-    #projects{
-      margin-top: 30rem;
-    }
-    footer{
-        /* background-color: red; */
-       height: 20rem;
-       
-        
-    }
-    footer p{
-        font-size: 14px;
-       
-  
-        
-    }
-    .footer-nav-links{
-       flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        
-        
-    }
-    footer nav{
-        /* background-color: yellow; */
-        display: flex;
-        height: 15rem;
-        justify-content: space-around;
-        align-items: center;
-       
-    }
-    .About-Container{
-        height: 40rem;
-    }
-    .section__pic-container{
-        width:275px;
-        height: 275px;
-        /* background-color: yellow; */
-     }
-     .About-pic-container{
-   
-        /* background-color: yellow;  */
-        
-        height: 300px;
-        width: 300px;
-    }
-    .About-pic-container img{
-        width: 240px;
-        height: 240px;
-        
-       }
-    .logo{
-        font-size: 1.7rem;
-    }
-    .section__text__p1{
-        font-size: 20px;  
-    }
-    .section__text__p2{
-        font-size: 20px;  
-    }
-    .title{
-        font-size: 31px;
-    }
-    .E-C{
-        padding: 1rem;
-    }
-    .About-pic-container{
-        /* background-color: aqua; */
-        height: 200px;
-        width: 200px;
-    }
-    #profile{
-        /* background-color: skyblue; */
-       
-        margin-bottom: 20px;
-        
-       
-    }
-    
-
-   
- }
- @media only screen and (max-width: 420px){
-    .btn{
-        font-size: 12px;
-    }
- }
- @media only screen and (max-width: 845px){
-    .skills-container{
-        display: flex;
-        flex-direction: column;
-    }
-     }
-
-
-
-
-
-
- 
- 
-  
-     
- 
-    

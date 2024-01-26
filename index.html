@@ -13,30 +13,14 @@
       <div class="logo">Aniket Rawat</div>
       <div>
         <ul class="nav-links">
-          <li><a href="#About-page">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Project</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a class="nav-items" href="#About-page">About</a></li>
+          <li><a class="nav-items" href="#experience">Experience</a></li>
+          <li><a class="nav-items" href="#projects">Project</a></li>
+          <li><a class="nav-items" href="ContactForm.html">Contact</a></li>
         </ul>
       </div>
     </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">Aniket Rawat</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
 
-        <div class="menu-links">
-          <li><a href="#About-page" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()"> Project</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
-      </div>
-    </nav>
     <!-- Profile Page -->
     <section id="profile">
       <div class="section-container">
@@ -59,10 +43,7 @@
             >
               Download CV
             </button>
-            <button
-              class="btn btn-color-1"
-              onclick="location.href='./#contact'"
-            >
+            <button class="btn btn-color-1" onclick="openContactForm()">
               Contact Info
             </button>
           </div>
@@ -95,13 +76,13 @@
           <div class="About-Container-intro-1">
             <div class="E-C Experience-container">
               <img src="./Asset/experience.png" alt="Logo for experience" />
-              <!-- <p>2+ years</p> -->
+              <p>2+ years</p>
               <p>Frontend-Development</p>
             </div>
             <div class="E-C Education-Qualification-Container">
               <img src="./Asset/education.png" alt="Education Logo" />
               <p>BTech CSE</p>
-              <!-- <p>MTech Masters Degree</p> -->
+              <p>MTech Masters Degree</p>
             </div>
           </div>
           <div class="About-Container-intro-2">
@@ -117,11 +98,12 @@
           </div>
         </div>
       </div>
-      <!-- <img onclick="arrow()"
+      <img
+        onclick="arrow()"
         class="Arrow-symbol"
         src="./Asset/arrow.png"
         alt="This is an arrow symbol."
-      /> -->
+      />
     </section>
 
     <!-- -Experience Section  -->
@@ -244,7 +226,8 @@
                 <p>Beginner</p>
               </div>
             </article>
-            <!-- <article>
+
+            <article>
               <div>
                 <img
                   class="checkmark-icon"
@@ -295,7 +278,7 @@
                 <h3>HTML</h3>
                 <p>Experienced</p>
               </div>
-            </article> -->
+            </article>
           </div>
         </div>
       </div>
