@@ -69,3 +69,52 @@
     font-size: 2rem;
   }
 }
+@media only screen and (max-width: 963px) {
+  #About-page {
+    height: 80rem;
+  }
+  .About-Container {
+    height: 70rem;
+    gap: 4rem;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+  }
+  .About-pic-container {
+    /* background-color: orange; */
+    display: flex;
+
+    height: 400px;
+    width: 400px;
+  }
+  .About-pic-container img {
+    /* width: 100%; */
+    border-radius: 50%;
+    display: block;
+    width: 400px;
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .About-Container-intro-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .About-pic-container {
+    height: 300px;
+    width: 300px;
+  }
+  .About-pic-container img {
+    height: 300px;
+    width: 300px;
+  }
+  .E-C {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+  }
+}

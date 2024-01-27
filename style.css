@@ -10,7 +10,7 @@ html {
 }
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #fcefe2;
+  background-color: #f8f1ea;
 }
 
 p {
@@ -137,15 +137,7 @@ nav {
   justify-content: center;
 }
 /*3.Sections*/
-#profile {
-  /* background-color: skyblue; */
-  /* margin-left: 10rem;
-  margin-right: 10rem; */
-  /* margin-bottom: 90px; */
-  /* height: 35rem;
-  margin-top: 5rem; */
-  height: 100vh;
-}
+
 .section-container {
   /* background-color: blue; */
   height: 90vh;
@@ -250,9 +242,8 @@ nav {
 /* About-Page Section */
 #About-page {
   /* background-color: skyblue; */
-  margin-left: 10rem;
-  margin-right: 10rem;
-  height: 35rem;
+  margin-top: 6rem;
+  height: 50rem;
   position: relative;
 }
 .p1 {
@@ -264,27 +255,28 @@ nav {
 }
 .About-Container {
   gap: 4rem;
-  height: 35rem;
+  height: 40rem;
   /* background-color: red; */
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .About-pic-container {
-  /* background-color: skyblue; */
+  /* background-color: orange; */
   display: flex;
 
-  margin-top: auto;
-  margin-bottom: auto;
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 1200px;
 }
 .About-pic-container img {
+  /* width: 100%; */
   border-radius: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 .About-Container-intro {
-  /* background-color: skyblue; */
+  /* background-color: blue; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -295,6 +287,9 @@ nav {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+}
+.About-Container-intro-2 {
+  /* background-color: rgb(255, 142, 255); */
 }
 .E-C {
   padding: 1.5rem;
@@ -312,13 +307,7 @@ nav {
 .p2 {
   text-align: justify;
 }
-.Arrow-symbol {
-  position: absolute;
-  right: -6rem;
-  bottom: 2.5rem;
-  cursor: pointer;
-  height: 2rem;
-}
+
 /* Experience-Section */
 #experience {
   margin-top: 200px;
@@ -567,23 +556,4 @@ footer p {
   width: 100%;
   height: auto;
   background-color: red;
-}
-
-.Form-name {
-  color: black;
-  text-align: center;
-}
-
-.contact-info {
-  margin-top: 20px;
-}
-
-.social-media {
-  margin-top: 20px;
-}
-
-.social-icon {
-  margin-right: 10px;
-  text-decoration: none;
-  color: #333;
 }
