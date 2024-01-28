@@ -121,6 +121,7 @@
 @media only screen and (max-width: 1233px) {
   #projects {
     margin-top: 6rem;
+    height: 120rem;
   }
   .projects-container {
     height: 110rem;
@@ -132,10 +133,10 @@
     .projects-container {
       height: 190rem;
     }
-    .project-div {
+    /* .project-div {
       width: 16rem;
       height: 22rem;
-    }
+    } */
     .project-img {
       border-radius: 2rem;
       width: 12rem;
@@ -154,5 +155,16 @@
     .Linkedin-link a {
       font-size: 1rem;
     }
+  }
+}
+@media only screen and (max-width: 752px) {
+  #experience {
+    height: 70rem;
+  }
+}
+
+@media only screen and (max-width: 548px) {
+  #experience {
+    height: 115rem;
   }
 }
