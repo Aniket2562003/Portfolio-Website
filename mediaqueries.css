@@ -126,19 +126,33 @@
     height: 110rem;
   }
   @media only screen and (max-width: 826px) {
-  #projects {
-    height: 200rem;
+    #projects {
+      height: 200rem;
+    }
+    .projects-container {
+      height: 190rem;
+    }
+    .project-div {
+      width: 16rem;
+      height: 22rem;
+    }
+    .project-img {
+      border-radius: 2rem;
+      width: 12rem;
+      height: 12rem;
+    }
   }
-  .projects-container {
-    height: 190rem;
-  }
-  .project-div {
-    width: 16rem;
-    height: 22rem;
-  }
-  .project-img {
-    border-radius: 2rem;
-    width: 12rem;
-    height: 12rem;
+  @media only screen and (max-width: 1000px) {
+    .contact-info {
+      /* background-color: rgb(54, 209, 54); */
+      display: flex;
+      flex-direction: column;
+    }
+    .email a {
+      font-size: 1rem;
+    }
+    .Linkedin-link a {
+      font-size: 1rem;
+    }
   }
 }
