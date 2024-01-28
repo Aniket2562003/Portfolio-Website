@@ -385,29 +385,31 @@ article {
   gap: 1rem;
 }
 #projects {
-  margin-top: 200px;
+  margin-top: 6rem;
   /* background-color: yellow; */
-  position: relative;
-  margin-bottom: 90px;
+
   padding-bottom: 20px;
-  height: 45rem;
-  margin-left: 10rem;
-  margin-right: 10rem;
+  height: 80rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 16rem;
+  height: 16rem;
 }
 .projects-container {
+  height: 60rem;
   gap: 2rem;
   margin-top: 2rem;
   display: flex;
   justify-content: center;
   /* background-color: red; */
+  flex-wrap: wrap;
 }
 .project-div {
   width: 20rem;
+  height: 25rem;
   padding: 1.5rem;
   background: white;
   /* background-color: skyblue; */
@@ -420,11 +422,12 @@ article {
   font-size: 1.7rem;
 }
 .projects-container-buttons {
+  margin-top: 1rem;
   padding: 10px;
   display: flex;
   justify-content: center;
   gap: 1rem;
-  /* background-color: yellow; */
+  /* background-color: rgb(20, 60, 192); */
 }
 .projects-container-buttons button {
   color: black;

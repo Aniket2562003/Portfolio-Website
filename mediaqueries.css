@@ -118,3 +118,27 @@
     text-align: center;
   }
 }
+@media only screen and (max-width: 1233px) {
+  #projects {
+    margin-top: 6rem;
+  }
+  .projects-container {
+    height: 110rem;
+  }
+  @media only screen and (max-width: 826px) {
+  #projects {
+    height: 200rem;
+  }
+  .projects-container {
+    height: 190rem;
+  }
+  .project-div {
+    width: 16rem;
+    height: 22rem;
+  }
+  .project-img {
+    border-radius: 2rem;
+    width: 12rem;
+    height: 12rem;
+  }
+}
